@@ -56,11 +56,11 @@ int main(int argc, char *argv[]) {
 	tb_gen(fptr);
 	fprintf(fptr, "		</BODY>\n");	
 	
-	<style>
+	/*<style>
 	table, th, td {
   	border: 1px solid black;
 	}
-</style>
+	</style>*/
 	
 	fprintf(fptr, "</HTML>\n");
 	fclose(fptr);
